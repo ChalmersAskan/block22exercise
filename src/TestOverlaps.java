@@ -7,10 +7,10 @@ public class TestOverlaps {
 
         // TODO: Step 1c: Predict what the result of these method calls will be.
         //   Fill in the blanks in the comment for each line before running the program.
-        square.overlaps(triangle);      // ___.overlaps:___{} vs ___{}
-        square.overlaps(square);        // ___.overlaps:___{} vs ___{}
-        triangle.overlaps(rectangle);   // ___.overlaps:___{} vs ___{}
-        triangle.overlaps(triangle);    // ___.overlaps:___{} vs ___{}
+        square.overlaps(triangle);      // Polygon.overlaps:Square{} vs Triangle{}
+        square.overlaps(square);        // Polygon.overlaps:Square{} vs Square{}
+        triangle.overlaps(rectangle);   // Polygon.overlaps:Triangle{} vs Rectangle{}
+        triangle.overlaps(triangle);    // Polygon.overlaps:Triangle{} vs Triangle{}
 
         // TODO: Step 2b: After you have uncommented all three overridden implementations
         //   of the method 'overlaps' in the subclasses, as per step 2a,
